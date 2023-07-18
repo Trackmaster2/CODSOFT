@@ -25,7 +25,7 @@ def clear():
 
 
 root = Tk()
-root.title("Arithematic Calculator")calc.py
+root.title("Arithematic Calculator")
 root.geometry("500x400")
 root.configure(bg="#17161b")
 
