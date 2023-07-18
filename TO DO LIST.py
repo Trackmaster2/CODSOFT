@@ -4,7 +4,8 @@ import tkinter.messagebox
 root = tkinter.Tk()
 root.title("to do list")
 
-def add_task():TO DO LIST.py
+def add_task():
+    task=entry.get()
     if task != '':
      listbox.insert(tkinter.END,task)
      entry.delete(0, tkinter.END)
